@@ -1,0 +1,102 @@
+/* Custom CSS for Learning Tool */
+
+.stApp {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: #1E5C9B;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    color: #2E7EBC;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    color: #3E9FDC;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.stButton > button {
+    border-radius: 6px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.stButton > button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.css-1yy6isu p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+code {
+    background-color: #f0f2f6;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-family: 'Consolas', 'Monaco', monospace;
+    font-size: 0.9em;
+}
+
+pre {
+    background-color: #f0f2f6;
+    padding: 1em;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.chat-message {
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.user-message {
+    background-color: #E6F7FF;
+    border-left: 4px solid #1890FF;
+}
+
+.ai-message {
+    background-color: #F6FFED;
+    border-left: 4px solid #52C41A;
+}
+
+/* Improved form styling */
+.stForm {
+    background-color: #F8F9FA;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Custom styling for the learning space cards */
+.space-card {
+    padding: 1.2rem;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+.space-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar styling */
+.css-1lcbmhc .css-16idsys p {
+    font-size: 0.95rem;
+}
+
+/* Custom expander styling */
+.streamlit-expanderHeader {
+    font-weight: 600;
+    color: #2C3E50;
+}
